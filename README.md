@@ -105,7 +105,3 @@ This repository contains multiple lab activities involving Arduino and Python. T
 - Ensure the Arduino baud rate matches the Python serial communication settings.
 - Modify API URLs as needed based on your network setup.
 
-## Authors
-- **Adelaine S. Monzon**
-
-
