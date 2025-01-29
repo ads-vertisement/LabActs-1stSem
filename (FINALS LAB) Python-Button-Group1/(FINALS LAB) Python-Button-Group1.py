@@ -4,13 +4,13 @@ import time
 from threading import Thread
 
 # Arduino setup
-arduino_port = "COM4"  # Replace with your Arduino port
+arduino_port = "COM#"  # Replace with your Arduino port
 baud_rate = 9600       # Match the baud rate in Arduino code
 ser = serial.Serial(arduino_port, baud_rate)
 time.sleep(2)  # Allow Arduino to initialize
 
 # API URL
-api_url = "http://192.168.26.1:8000/final_lab"  # Changed to HTTP instead of HTTPS
+api_url = " "  # Changed to HTTP instead of HTTPS
 
 # Function to handle serial data and API calls
 def read_from_arduino():
