@@ -12,7 +12,7 @@ arduino = None
 def startup_event():
     global arduino
     try:
-        arduino = serial.Serial('COM4', 9600, timeout=1)
+        arduino = serial.Serial('COM#', 9600, timeout=1)
         time.sleep(2)  # Allow Arduino to initialize
         print("Serial connection established.")
     except serial.SerialException as e:
