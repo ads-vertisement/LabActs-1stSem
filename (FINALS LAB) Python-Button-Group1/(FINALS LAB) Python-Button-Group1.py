@@ -10,7 +10,7 @@ ser = serial.Serial(arduino_port, baud_rate)
 time.sleep(2)  # Allow Arduino to initialize
 
 # API URL
-api_url = " "  # Changed to HTTP instead of HTTPS
+api_url = "http://your_endpoint_to_the_other_arduino" # Replace with your API endpoint
 
 # Function to handle serial data and API calls
 def read_from_arduino():
