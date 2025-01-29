@@ -4,8 +4,6 @@ This repository contains multiple lab activities involving Arduino and Python. T
 
 ## Activities Overview
 
-### Arduino Codes
-
 ### Components Used:
 - Arduino board
 - Bread board
@@ -15,7 +13,9 @@ This repository contains multiple lab activities involving Arduino and Python. T
 - LED(s)
 - Wires
 
-#### **Lab Act 1: LED Sequence (12 to 8 and 8 to 12)**
+### Arduino Codes
+
+#### Lab Act 1: LED Sequence (12 to 8 and 8 to 12)
 - Turns LEDs ON and OFF sequentially.
 - Uses pins 12, 11, 10, 9, and 8.
 
