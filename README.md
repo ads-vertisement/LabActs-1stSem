@@ -101,7 +101,7 @@ This repository contains multiple lab activities involving Arduino and Python. T
    ```
 
 ## Notes
-- Update the `COM#` port and the `api_url` in Python scripts to match your Arduino connection.
+- Update the `COM#` port in Python scripts to match your Arduino connection.
 - Ensure the Arduino baud rate matches the Python serial communication settings.
 - Modify API URLs as needed based on your network setup.
 
