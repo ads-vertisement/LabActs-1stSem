@@ -3,7 +3,7 @@ import time
 import requests
 
 # Replace with your Arduino's port
-arduino_port = "COM3" # Example: "/dev/ttyUSB0" for Linux/Mac
+arduino_port = "COM#" # Example: "/dev/ttyUSB0" for Linux/Mac
 baud_rate = 9600 # Match the baud rate in Arduino code
 
 # API Endpoint
